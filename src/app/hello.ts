@@ -5,9 +5,11 @@ import {Component} from '@angular/core';
   template: require('./hello.html')
 })
 export class HelloComponent {
-  public hello: string;
+  public word: string;
+  public num: number;
 
   constructor() {
-    this.hello = 'Hello World!';
+    this.word = 'cao!';
+    this.num = 9;
   }
 }
