@@ -2,3 +2,5 @@
 coverage/
 dist/
 node_modules/
+.vs/config/applicationhost.config
+.vscode/settings.json
