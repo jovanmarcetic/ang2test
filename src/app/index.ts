@@ -1,17 +1,14 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import {HelloComponent} from './hello';
-import {InputComponent} from './components/inp';
+// import {NgbdButtonsRadio} from './inp';
 
 @NgModule({
-  imports: [
-    BrowserModule
-  ],
-  declarations: [
-    HelloComponent,
-    InputComponent
-  ],
-  bootstrap: [HelloComponent, InputComponent]
+// imports: [BrowserModule, NgbModule.forRoot()],
+  imports: [BrowserModule],
+  declarations: [HelloComponent],
+  bootstrap: [HelloComponent]
 })
 export class AppModule {}
